@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- header section start here  -->
+
+        <nav
+            class="px-6 py-3 md:px-8 xl:px-[4.5rem] flex justify-between items-center w-full"
+        >
+            <div
+                class="flex justify-center items-center gap-3 md:order-2 md:hidden"
+            >
+                <div class="hamb flex flex-col gap-[2px] cursor-pointer">
+                    <div class="h-0.5 rounded-sm w-4 bg-gray-600"></div>
+                    <div class="h-0.5 rounded-sm w-4 bg-gray-600"></div>
+                    <div class="h-0.5 rounded-sm w-4 bg-gray-600"></div>
+                </div>
+
+                <div class="search flex justify-center items-center">
+                    <ion-icon
+                        class="font-bold text-xl cursor-pointer"
+                        name="search-outline"
+                    ></ion-icon>
+                    <input type="text" name="" id="" class="hidden" />
+                </div>
+            </div>
+
+            <div class="Microsoft md:order-1 flex gap-8">
+                <div class="flex justify-center items-center">
+                    <img src="assets/microsoft-logo.png" alt="" class="w-28" />
+                </div>
+                <div class="flex justify-center items-center">
+                    <ul class="hidden md:flex text-xs md:gap-4">
+                        <li class="hover:underline cursor-pointer">
+                            Microsoft 365
+                        </li>
+                        <li class="hover:underline cursor-pointer">Teams</li>
+                        <li class="hover:underline cursor-pointer">Windows</li>
+                        <li class="hover:underline cursor-pointer">Surface</li>
+                        <li
+                            class="hover:underline cursor-pointer hidden lg:block"
+                        >
+                            Xbox
+                        </li>
+                        <li class="hover:underline cursor-pointer">Deals</li>
+                        <li
+                            class="hover:underline flex justify-center items-center lg:hidden cursor-pointer"
+                        >
+                            More
+                            <ion-icon name="chevron-down-outline"></ion-icon>
+                        </li>
+                        <li class="hover:underline hidden lg:block">
+                            Small Business
+                        </li>
+                        <li class="hover:underline hidden lg:block">
+                            Supports
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex gap-4 justify-center items-center md:order-3">
+                <div class="md:flex text-xs justify-center items-center hidden">
+                    <span class="whitespace-nowrap">All microsoft</span>
+                    <ion-icon name="chevron-down-outline"></ion-icon>
+                </div>
+
+                <div
+                    class="search md:justify-center md:items-center hidden md:flex text-sm gap-2"
+                >
+                    <span>Search </span>
+                    <ion-icon
+                        class="font-bold text-xl cursor-pointer mr-2"
+                        name="search-outline"
+                    ></ion-icon>
+                </div>
+
+                <div class="flex justify-center items-center gap-3 text-sm">
+                    <span class="hidden lg:inline">Cart</span>
+                    <ion-icon
+                        class="font-extrabold text-xl cursor-pointer"
+                        name="cart-outline"
+                    ></ion-icon>
+                </div>
+                <div class="flex justify-center items-center gap-3 text-sm">
+                    <span class="hidden lg:inline">Sign in</span>
+                    <ion-icon
+                        class="font-extrabold text-4xl cursor-pointer"
+                        name="person-circle-outline"
+                    ></ion-icon>
+                </div>
+            </div>
+        </nav>
+
+        <!-- header section ends here  -->
+
+        <!-- offer section start here  -->
+
+        <div
+            class="offer bg-[#9bf00b] text-center p-6 flex justify-center items-center cursor-pointer gap-4 mb-1"
+        >
+            <span class="hover:underline font-bold">
+                Get set for the semester with deals on tech essentials, plus
+                flexible payment options starting at 0% APR. Shop student deals
+            </span>
+
+            <ion-icon
+                class="text-2xl font-bold"
+                name="chevron-forward-outline"
+            ></ion-icon>
+        </div>
+
+        <!-- offer section ends here  -->
+
+        <!-- herosection start from here -->
+        <section class="hero">
+            <div
+                class="flex flex-wrap-reverse md:flex-row md:bg-[#fea38b] px-1 py-3 md:px-8 xl:px-[4.5rem] relative"
+            >
+                <div
+                    class="left flex-1 flex flex-col justify-center items-start px-8 mt-4 md:mt-0 md:gap-6 gap-2"
+                >
+                    <button class="font-semibold bg-[#ff5d39] px-4 py-1">
+                        Back to school
+                    </button>
+                    <h1 class="text-3xl font-medium md:w-4/5 md:text-4xl">
+                        Bundle and save up to $279.99 on Surface Pro 9
+                    </h1>
+                    <p class="text-base md:w-4/5">
+                        Complete your study setup and save big when you bundle
+                        select ultra-thin Surface Pro 9 with a Surface Pro
+                        Signature Keyboard. Offer expires 9/10.
+                    </p>
+                    <button
+                        class="bg-black text-white font-semibold py-2 px-3 mt-4"
+                    >
+                        Shop Surface Pro 9 Bundle
+                    </button>
+                </div>
+                <div class="right w-full md:flex-1">
+                    <img
+                        class="w-full h-full object-contain"
+                        src="assets/small-laptop.png"
+                        alt=""
+                    />
+                </div>
+            </div>
+
+            <hr />
+
+            <div
+                class="btns w-full flex p-4 md:gap-8 gap-5 justify-center items-center text-xl"
+            >
+                <ion-icon
+                    class="text-2xl font-bold"
+                    name="play-circle-outline"
+                ></ion-icon>
+                <ion-icon
+                    class="text-2xl font-bold"
+                    name="chevron-back-outline"
+                ></ion-icon>
+                <div class="h-3 w-3 rounded-full bg-black"></div>
+                <div
+                    class="h-3 w-3 rounded-full border border-1 border-black"
+                ></div>
+                <ion-icon
+                    class="text-2xl font-bold"
+                    name="chevron-forward-outline"
+                ></ion-icon>
+            </div>
+        </section>
+
+        <!-- hero section end here  -->
+
+        <!-- promo section starts here  -->
+
+        <section
+            class="promo px-12 py-2 mb-12 flex justify-center items-center mt-16"
+        >
+            <div class="flex justify-around items-center gap-6 flex-wrap">
+                <div class="flex flex-col items-center">
+                    <img
+                        class="w-10"
+                        src="assets/promo/shopsurfacedevice.webp"
+                        alt=""
+                    />
+                    <span
+                        class="font-bold underline text-blue-500 cursor-pointer"
+                        >Shop Surface device</span
+                    >
+                </div>
+                <div class="flex flex-col items-center">
+                    <img
+                        class="w-10"
+                        src="assets/promo/microsoft365.webp"
+                        alt=""
+                    />
+                    <span
+                        class="font-bold underline text-blue-500 cursor-pointer"
+                        >Choose you microsoft 365</span
+                    >
+                </div>
+                <div class="flex flex-col items-center">
+                    <img class="w-10" src="assets/promo/xbox.webp" alt="" />
+                    <span
+                        class="font-bold underline text-blue-500 cursor-pointer"
+                        >Buy Xbox games and consoles
+                    </span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img class="w-10" src="assets/promo/student.webp" alt="" />
+                    <span
+                        class="font-bold underline text-blue-500 cursor-pointer"
+                        >Shop for students</span
+                    >
+                </div>
+                <div class="flex flex-col items-center">
+                    <img
+                        class="w-10"
+                        src="assets/promo/accessories.webp"
+                        alt=""
+                    />
+                    <span
+                        class="font-bold underline text-blue-500 cursor-pointer"
+                        >Shop for accessories</span
+                    >
+                </div>
+                <div class="flex flex-col items-center">
+                    <img
+                        class="w-10"
+                        src="assets/promo/shopbusiness.webp"
+                        alt=""
+                    />
+                    <span
+                        class="font-bold underline text-blue-500 cursor-pointer"
+                        >Shop Business</span
+                    >
+                </div>
+            </div>
+        </section>
+        <!-- promo section end here  -->
+
+        <!-- categories section start here  -->
+
+        <section class="categories mx-4 md:mx-8">
+            <div
+                class="flex px-6 gap-6 py-2 md:gap-4 lg:gap-6 flex-wrap justify-around"
+            >
+                <div class="flex flex-col justify-start gap-4 w-[20rem]">
+                    <div>
+                        <img
+                            src="./assets/categories/microsoft365.webp"
+                            alt=""
+                        />
+                    </div>
+                    <h3 class="font-semibold text-xl">Microsoft 365</h3>
+                    <p>
+                        Turn your ideas into reality, stay safer online and off,
+                        and focus on what matters most with Microsoft 365 apps
+                    </p>
+                    <div class="flex justify-between">
+                        <a
+                            href="#"
+                            class="flex justify-center items-center text-blue-700 underline"
+                            ><span>For one person</span>
+                            <ion-icon
+                                class="text-2xl font-bold"
+                                name="chevron-forward-outline"
+                            ></ion-icon>
+                        </a>
+                        <a
+                            href="#"
+                            class="flex justify-center items-center text-blue-700 underline"
+                            ><span>For up to 6 person</span>
+                            <ion-icon
+                                class="text-2xl font-bold"
+                                name="chevron-forward-outline"
+                            ></ion-icon>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-start gap-4 w-[20rem]">
+                    <div>
+                        <img
+                            src="./assets/categories/selectsurface.webp"
+                            alt=""
+                        />
+                    </div>
+                    <h3 class="font-semibold text-xl">
+                        Select Surface Laptop Go 2, up to $250 off
+                    </h3>
+                    <p>
+                        Lightweight and ready to roll, our most portable Surface
+                        Laptop 2-in-1 device is designed for whatever, whenever
+                        college life. Offer ends 9/30
+                    </p>
+                    <div class="flex justify-between">
+                        <a
+                            href="#"
+                            class="flex justify-center items-center text-blue-700 underline"
+                            ><span>Shop Surface Laptop Go 2</span>
+                            <ion-icon
+                                class="text-2xl font-bold"
+                                name="chevron-forward-outline"
+                            ></ion-icon>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-start gap-4 w-[20rem]">
+                    <div>
+                        <img
+                            src="./assets/categories/poweryourdream.jfif"
+                            alt=""
+                        />
+                    </div>
+                    <h3 class="font-semibold text-xl">Power your dream</h3>
+                    <p>
+                        Introducing Xbox Series S in Carbon Black, now with a 1
+                        TB SSD. Experience next-gen speed and performance.
+                    </p>
+                    <div class="flex justify-between">
+                        <a
+                            href="#"
+                            class="flex justify-center items-center text-blue-700 underline"
+                            ><span>Shop now</span>
+                            <ion-icon
+                                class="text-2xl font-bold"
+                                name="chevron-forward-outline"
+                            ></ion-icon>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-start gap-4 w-[20rem]">
+                    <div>
+                        <img src="./assets/categories/xbox.webp" alt="" />
+                    </div>
+                    <h3 class="font-semibold text-xl">Xbox Series X</h3>
+                    <p>The fastest, most powerful Xbox ever.</p>
+                    <div class="flex justify-between">
+                        <a
+                            href="#"
+                            class="flex justify-center items-center text-blue-700 underline"
+                            ><span>Shop Xbox series X</span>
+                            <ion-icon
+                                class="text-2xl font-bold"
+                                name="chevron-forward-outline"
+                            ></ion-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- categories section ends here  -->
+
+        <!-- Hero section 2 starts from here  -->
+        <section class="hero-2 p-6 m-4 md:text-white">
+            <div
+                class="flex flex-col md:flex-row flex-wrap md:bg-[#3f5567] gap-4 md:h-[30rem] starwar md:px-8"
+            >
+                <div class="left flex-1 h-full">
+                    <img
+                        class="h-full object-cover md:hidden"
+                        src="./assets/hero2.png"
+                        alt=""
+                    />
+                </div>
+                <div class="centerdiv hidden md:flex-1 md:block"></div>
+                <div
+                    class="right flex-1 flex flex-col justify-start gap-2 md:justify-center md:w-1/4 md:-m-30"
+                >
+                    <button
+                        class="px-4 py-1 text-sm font-normal cursor-pointer w-fit bg-yellow-500 text-black"
+                    >
+                        New
+                    </button>
+                    <h3 class="text-2xl font-bold">
+                        For all, into the Starfield
+                    </h3>
+                    <p>
+                        Create any character you want and explore with
+                        unparalleled freedom as you emberk on and epic journey
+                        to answer humainty's greatest mystery.
+                    </p>
+                    <button
+                        class="px-4 py-2 bg-blue-600 text-white font-medium cursor-pointer w-fit"
+                    >
+                        Get Starfield now
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- Hero Section 2 ends here  -->
+
+        <!-- For business section starts here -->
+        <section class="business w-full">
+            <div class="px-4 pl-12 w-full my-8 flex flex-col justify-start">
+                <div class="heading">
+                    <h1 class="text-2xl md:text-4xl font-semibold mb-4">
+                        For business
+                    </h1>
+                </div>
+                <div
+                    class="container flex flex-wrap items-center justify-center"
+                >
+                    <div
+                        class="card w-[20rem] p-2 flex flex-col gap-2 items-start"
+                    >
+                        <div class="w-full">
+                            <img
+                                class="w-full"
+                                src="./assets/for business/surface.jfif"
+                                alt=""
+                            />
+                        </div>
+                        <h3 class="text-xl font-semibold md:text-3xl">
+                            Save up to $270 on Surface Pro 9 for Business
+                        </h3>
+                        <p>
+                            Empower flexible, all-day impact with tablet
+                            portablity and laptop performace. Offer ends 9/30
+                        </p>
+                        <div>
+                            <a
+                                href="#"
+                                class="flex justify-center items-center text-blue-600 underline"
+                                ><span>Shop now</span
+                                ><ion-icon
+                                    class="text-2xl font-bold"
+                                    name="chevron-forward-outline"
+                                ></ion-icon
+                            ></a>
+                        </div>
+                    </div>
+                    <div
+                        class="card w-[20rem] p-2 flex flex-col gap-2 items-start"
+                    >
+                        <div class="w-full">
+                            <img
+                                class="w-full"
+                                src="./assets/for business/microsoft.webp"
+                                alt=""
+                            />
+                        </div>
+                        <h3 class="text-xl font-semibold md:text-3xl">
+                            Try Microsoft 365 for free
+                        </h3>
+                        <p>
+                            Get Microsoft Teams, secure cloud storage, and
+                            premium apps across devices with a free one-month
+                            Microsoft 365 Business Standard trial
+                        </p>
+                        <div>
+                            <a
+                                href="#"
+                                class="flex justify-center items-center text-blue-600 underline"
+                                ><span>Start your free trial</span
+                                ><ion-icon
+                                    class="text-2xl font-bold"
+                                    name="chevron-forward-outline"
+                                ></ion-icon
+                            ></a>
+                        </div>
+                    </div>
+                    <div
+                        class="card w-[20rem] p-2 flex flex-col gap-2 items-start"
+                    >
+                        <div class="w-full">
+                            <img
+                                class="w-full"
+                                src="./assets/for business/window.webp"
+                                alt=""
+                            />
+                        </div>
+                        <h3 class="text-xl font-semibold md:text-3xl">
+                            Welcome to your Windows 365 Could PC
+                        </h3>
+                        <p>
+                            Securely stream your Windows experience from the
+                            Micorsoft cloud to any device
+                        </p>
+                        <div>
+                            <a
+                                href="#"
+                                class="flex justify-center items-center text-blue-600 underline"
+                                ><span>Get it today</span
+                                ><ion-icon
+                                    class="text-2xl font-bold"
+                                    name="chevron-forward-outline"
+                                ></ion-icon
+                            ></a>
+                        </div>
+                    </div>
+                    <div
+                        class="card w-[20rem] p-2 flex flex-col gap-2 items-start"
+                    >
+                        <div class="w-full">
+                            <img
+                                class="w-full"
+                                src="./assets/for business/ignite.webp"
+                                alt=""
+                            />
+                        </div>
+                        <h3 class="text-xl font-semibold md:text-3xl">
+                            Save the date: Microsoft Ignite
+                        </h3>
+                        <p>
+                            Join us in Seattle November 14-17 to explore the
+                            latest AI innovation, connect with experts and
+                            partners, and level up your skill set.
+                        </p>
+                        <div>
+                            <a
+                                href="#"
+                                class="flex justify-center items-center text-blue-600 underline"
+                                ><span>Find out how to register</span
+                                ><ion-icon
+                                    class="text-2xl font-bold"
+                                    name="chevron-forward-outline"
+                                ></ion-icon
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- For business section ends here  -->
+
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+        ></script>
+    </body>
+</html>

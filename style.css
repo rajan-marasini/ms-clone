@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (min-width: 768px) {
+    .starwar {
+        background: url(./assets/Highlight-Games-Starfield-Key-Art_VP5-1596x600.webp);
+        background-repeat: norepeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
